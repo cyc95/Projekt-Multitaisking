@@ -1,0 +1,10 @@
+<map id="cos_data_fifo.c" name="cos_data_fifo.c">
+<area shape="rect" id="node4" href="$cos__ser_8h.html" title="Routinen fuer die serielle Kommunikation auf renesas Controller. " alt="" coords="325,304,404,331"/>
+<area shape="rect" id="node8" href="$cos__data__fifo_8h.html" title="Daten&#45;FIFO fuer COS auf Atmel. Der FIFO benutzt dynamische Speicherverwaltung (malloc()). Es kann nur ein Sorte Daten gespeichert werden. Die maximale Anzahl von Speicherplaetzen (Slots) ist 255 wegen der Verwendung von 1 Byte Indexvariablen. Ein Slot kann maximal 256 Byte Speichern. " alt="" coords="50,80,159,107"/>
+<area shape="rect" id="node5" href="$cos__types_8h.html" title="Typdefinitionen fuer COS auf renesas RX63N. " alt="" coords="183,453,276,480"/>
+<area shape="rect" id="node6" href="$poll__serial__interface_8h.html" title="Routinen fuer die serielle Kommunikation auf renesas Controller. " alt="" coords="399,379,546,405"/>
+<area shape="rect" id="node9" href="$cos__semaphore_8h.html" title="Dies ist die renesas Version der COS&#45;Semaphoren. " alt="" coords="43,155,168,181"/>
+<area shape="rect" id="node10" href="$cos__scheduler_8h.html" title="Renesas Version des &#39;co&#45;operative&#39; Tasking Systems (COS) " alt="" coords="43,229,160,256"/>
+<area shape="rect" id="node12" href="$cos__linear__task__list_8h.html" title="Dies ist die renesas Version des &#39;co&#45;operative&#39; Schedulers. " alt="" coords="101,304,249,331"/>
+<area shape="rect" id="node11" href="$cos__systime_8h.html" title="Dieses Modul benutzt CMT0 als Systemuhr auf renesas contoller. " alt="" coords="44,379,151,405"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="cos_linear_task_list.h" name="cos_linear_task_list.h">
+<area shape="rect" id="node2" href="$cos__scheduler_8h.html" title="Renesas Version des &#39;co&#45;operative&#39; Tasking Systems (COS) " alt="" coords="168,80,285,107"/>
+<area shape="rect" id="node3" href="$cos__semaphore_8h.html" title="Dies ist die renesas Version der COS&#45;Semaphoren. " alt="" coords="68,155,193,181"/>
+<area shape="rect" id="node8" href="$cos__linear__task__list_8c.html" title="Dies ist die renesas Version der COS Task&#45;Liste. " alt="" coords="310,80,458,107"/>
+<area shape="rect" id="node7" href="$cos__scheduler_8c.html" title="Dies ist die Version von COS fuer renesas&#45;Controller. " alt="" coords="217,155,335,181"/>
+<area shape="rect" id="node4" href="$cos__data__fifo_8h.html" title="Daten&#45;FIFO fuer COS auf Atmel. Der FIFO benutzt dynamische Speicherverwaltung (malloc()). Es kann nur ein Sorte Daten gespeichert werden. Die maximale Anzahl von Speicherplaetzen (Slots) ist 255 wegen der Verwendung von 1 Byte Indexvariablen. Ein Slot kann maximal 256 Byte Speichern. " alt="" coords="5,229,115,256"/>
+<area shape="rect" id="node6" href="$cos__semaphore_8c.html" title="Dies ist die Atmel Version der COS&#45;Semaphoren. " alt="" coords="139,229,264,256"/>
+<area shape="rect" id="node5" href="$cos__data__fifo_8c.html" title="Daten&#45;FIFO fuer COS auf renesas RX63N. " alt="" coords="5,304,115,331"/>
+</map>

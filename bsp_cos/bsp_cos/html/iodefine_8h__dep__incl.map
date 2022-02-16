@@ -1,0 +1,8 @@
+<map id="iodefine.h" name="iodefine.h">
+<area shape="rect" id="node2" href="$cos__systime_8c.html" title="Dieses Modul benutzt CMT0 als Systemuhr. Es wird in COS gebraucht. " alt="" coords="5,80,112,107"/>
+<area shape="rect" id="node3" href="$hwsetup_8c.html" title="Initialisierung der Hardware. " alt="" coords="137,80,218,107"/>
+<area shape="rect" id="node4" href="$lcd_8c.html" title="C&#45;Quell&#45;Datei des Moduls lcd. Konstanten und Funktionen fÃ¼r die Verwendung des LCD. " alt="" coords="243,80,293,107"/>
+<area shape="rect" id="node5" href="$read_8c.html" title="Implementierung der Funktion int _read( int fd, char * buf, int cnt ). " alt="" coords="317,80,376,107"/>
+<area shape="rect" id="node6" href="$spi_8c.html" title="C&#45;Quell&#45;Datei des Moduls spi. Konstanten und Funktionen fÃ¼r die SPI&#45;Kommunikation. " alt="" coords="400,80,451,107"/>
+<area shape="rect" id="node7" href="$write_8c.html" title="Implementierung der Funktion int _write( int fd, const char * buf, int cnt ). " alt="" coords="475,80,535,107"/>
+</map>

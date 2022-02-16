@@ -1,0 +1,7 @@
+<map id="cos_systime.c" name="cos_systime.c">
+<area shape="rect" id="node2" href="$cos__systime_8h.html" title="Dieses Modul benutzt CMT0 als Systemuhr auf renesas contoller. " alt="" coords="5,80,112,107"/>
+<area shape="rect" id="node4" href="$iodefine_8h.html" title="Registerdefinitionen und Makros fÃ¼r den Registerzugriff. " alt="" coords="136,80,213,107"/>
+<area shape="rect" id="node5" href="$isr_8h.html" title="Prototypen der Interruptserviceroutinen. " alt="" coords="238,80,285,107"/>
+<area shape="rect" id="node3" href="$cos__types_8h.html" title="Typdefinitionen fuer COS auf renesas RX63N. " alt="" coords="12,155,105,181"/>
+<area shape="rect" id="node6" href="$bsp_8h.html" title="Steuerung des Board&#45;Support&#45;Package (BSP). " alt="" coords="234,155,289,181"/>
+</map>

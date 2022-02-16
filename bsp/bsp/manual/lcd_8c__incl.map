@@ -1,0 +1,6 @@
+<map id="lcd.c" name="lcd.c">
+<area shape="rect" id="node4" href="$lcd_8h.html" title="C&#45;Header&#45;Datei des Moduls lcd. Konstanten und Funktionen für die Verwendung des LCD. " alt="" coords="181,80,231,107"/>
+<area shape="rect" id="node5" href="$spi_8h.html" title="C&#45;Header&#45;Datei des Moduls spi. Konstanten und Funktionen für die SPI&#45;Kommunikation. " alt="" coords="255,80,304,107"/>
+<area shape="rect" id="node6" href="$iodefine_8h.html" title="Registerdefinitionen und Makros für den Registerzugriff. " alt="" coords="328,80,407,107"/>
+<area shape="rect" id="node7" href="$font_8h.html" title="C&#45;Headerdatei des Moduls font. Eine Schriftart für das Modul lcd. " alt="" coords="431,80,485,107"/>
+</map>

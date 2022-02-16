@@ -1,0 +1,519 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.10"/>
+<title>YRDKRX63N Board-Support-Package: Datenstruktur-Elemente</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">YRDKRX63N Board-Support-Package
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Erzeugt von Doxygen 1.8.10 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Hauptseite</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Datenstrukturen</span></a></li>
+      <li><a href="files.html"><span>Dateien</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Suchen" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Datenstrukturen</span></a></li>
+      <li class="current"><a href="functions.html"><span>Datenstruktur-Elemente</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow3" class="tabs2">
+    <ul class="tablist">
+      <li class="current"><a href="functions.html"><span>Alle</span></a></li>
+      <li><a href="functions_vars.html"><span>Variablen</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow4" class="tabs3">
+    <ul class="tablist">
+      <li><a href="functions.html#index_a"><span>a</span></a></li>
+      <li><a href="functions_b.html#index_b"><span>b</span></a></li>
+      <li><a href="functions_c.html#index_c"><span>c</span></a></li>
+      <li><a href="functions_d.html#index_d"><span>d</span></a></li>
+      <li><a href="functions_e.html#index_e"><span>e</span></a></li>
+      <li><a href="functions_f.html#index_f"><span>f</span></a></li>
+      <li><a href="functions_g.html#index_g"><span>g</span></a></li>
+      <li><a href="functions_h.html#index_h"><span>h</span></a></li>
+      <li><a href="functions_i.html#index_i"><span>i</span></a></li>
+      <li><a href="functions_k.html#index_k"><span>k</span></a></li>
+      <li><a href="functions_l.html#index_l"><span>l</span></a></li>
+      <li><a href="functions_m.html#index_m"><span>m</span></a></li>
+      <li class="current"><a href="functions_n.html#index_n"><span>n</span></a></li>
+      <li><a href="functions_o.html#index_o"><span>o</span></a></li>
+      <li><a href="functions_p.html#index_p"><span>p</span></a></li>
+      <li><a href="functions_r.html#index_r"><span>r</span></a></li>
+      <li><a href="functions_s.html#index_s"><span>s</span></a></li>
+      <li><a href="functions_t.html#index_t"><span>t</span></a></li>
+      <li><a href="functions_u.html#index_u"><span>u</span></a></li>
+      <li><a href="functions_v.html#index_v"><span>v</span></a></li>
+      <li><a href="functions_w.html#index_w"><span>w</span></a></li>
+      <li><a href="functions_y.html#index_y"><span>y</span></a></li>
+      <li><a href="functions_z.html#index_z"><span>z</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="contents">
+<div class="textblock">Hier folgt die Aufzählung aller Strukturen und Varianten mit Verweisen auf die zugehörigen Elemente:</div>
+
+<h3><a class="anchor" id="index_n"></a>- n -</h3><ul>
+<li>N
+: <a class="el" href="structst__mtu.html#ad87004c57429048b25e73af9ba445cb6">st_mtu</a>
+</li>
+<li>NACKE
+: <a class="el" href="structst__riic.html#ae3aba202ad96802db8ad37183a8c3229">st_riic</a>
+</li>
+<li>NACKF
+: <a class="el" href="structst__riic.html#a8a07fd94b3f172f82e5b335bb53f587e">st_riic</a>
+</li>
+<li>NAKIE
+: <a class="el" href="structst__riic.html#a29f79cffea813ec752ff80dc06a5b9a3">st_riic</a>
+</li>
+<li>NALE
+: <a class="el" href="structst__riic.html#ac1adde5f1514a6a15b3b3de0d32b1a2e">st_riic</a>
+</li>
+<li>NDER0
+: <a class="el" href="structst__ppg0.html#a5c2895e71ffac969a0b33102fb87028b">st_ppg0</a>
+</li>
+<li>NDER1
+: <a class="el" href="structst__ppg0.html#aab27dac81eaf0e00e4553450dac63edc">st_ppg0</a>
+</li>
+<li>NDER10
+: <a class="el" href="structst__ppg0.html#a908dd7cbc1dfbd00c0ae8e18e0780e9b">st_ppg0</a>
+</li>
+<li>NDER11
+: <a class="el" href="structst__ppg0.html#acf72a722d2c789ca3f63fcdff1fcfba0">st_ppg0</a>
+</li>
+<li>NDER12
+: <a class="el" href="structst__ppg0.html#a11af22ccf1cdb593767925378f9a6c41">st_ppg0</a>
+</li>
+<li>NDER13
+: <a class="el" href="structst__ppg0.html#a61b3568d659ff67f9a8aa1ad9b139c39">st_ppg0</a>
+</li>
+<li>NDER14
+: <a class="el" href="structst__ppg0.html#a31b2f5177be06394ecde131f98a021a0">st_ppg0</a>
+</li>
+<li>NDER15
+: <a class="el" href="structst__ppg0.html#a52da48a807b53814d662b32cf0180a93">st_ppg0</a>
+</li>
+<li>NDER16
+: <a class="el" href="structst__ppg1.html#aa40f69f97609008b9510b79f8c765caa">st_ppg1</a>
+</li>
+<li>NDER17
+: <a class="el" href="structst__ppg1.html#abc265b24beda20fc9ed5d3caff6a53e6">st_ppg1</a>
+</li>
+<li>NDER18
+: <a class="el" href="structst__ppg1.html#a76428223b30f15897fa48bb9cff9f10f">st_ppg1</a>
+</li>
+<li>NDER19
+: <a class="el" href="structst__ppg1.html#a87a5fd8d89f3e5a49de6a817823ff94a">st_ppg1</a>
+</li>
+<li>NDER2
+: <a class="el" href="structst__ppg0.html#aec9660cd786f9cae1f4eac74fe169aec">st_ppg0</a>
+</li>
+<li>NDER20
+: <a class="el" href="structst__ppg1.html#a6457eb98f953de410ec494cb0fb2c3fc">st_ppg1</a>
+</li>
+<li>NDER21
+: <a class="el" href="structst__ppg1.html#ad2f45f955b4c4718e3655aae460b3efc">st_ppg1</a>
+</li>
+<li>NDER22
+: <a class="el" href="structst__ppg1.html#a33f48e6c548f0ebacdc95cd132197163">st_ppg1</a>
+</li>
+<li>NDER23
+: <a class="el" href="structst__ppg1.html#a6018ce5bd7d996a38a8cb823f4293f34">st_ppg1</a>
+</li>
+<li>NDER24
+: <a class="el" href="structst__ppg1.html#a9a902c30fe53d59337f54d0ff1afbcc3">st_ppg1</a>
+</li>
+<li>NDER25
+: <a class="el" href="structst__ppg1.html#adc4ac3ed3ed2ef50e3317cd800450df2">st_ppg1</a>
+</li>
+<li>NDER26
+: <a class="el" href="structst__ppg1.html#a66c2f11d827126acf85ce78fed131d53">st_ppg1</a>
+</li>
+<li>NDER27
+: <a class="el" href="structst__ppg1.html#aba7cda5a6026e60f6765b2bd6fbf3da6">st_ppg1</a>
+</li>
+<li>NDER28
+: <a class="el" href="structst__ppg1.html#aeb100ac1dafb86380a60c2ecd44f2e7f">st_ppg1</a>
+</li>
+<li>NDER29
+: <a class="el" href="structst__ppg1.html#a85e790e8b6b75a7913a0e819beb05816">st_ppg1</a>
+</li>
+<li>NDER3
+: <a class="el" href="structst__ppg0.html#aa1d880cd69170028f4282bb4d417e17e">st_ppg0</a>
+</li>
+<li>NDER30
+: <a class="el" href="structst__ppg1.html#a5dd07ededc344ef6bda769baacc58491">st_ppg1</a>
+</li>
+<li>NDER31
+: <a class="el" href="structst__ppg1.html#a9f1364122c2c88b7fc0d3636d978c98d">st_ppg1</a>
+</li>
+<li>NDER4
+: <a class="el" href="structst__ppg0.html#a1222074139d9c145f6df59afa437308f">st_ppg0</a>
+</li>
+<li>NDER5
+: <a class="el" href="structst__ppg0.html#a62a054126a61e69f195be91330c9973d">st_ppg0</a>
+</li>
+<li>NDER6
+: <a class="el" href="structst__ppg0.html#a8e6f960d36e0853f22580f7a6b310f64">st_ppg0</a>
+</li>
+<li>NDER7
+: <a class="el" href="structst__ppg0.html#ad4b94ba8bc68735c1914d9ea4e309b3c">st_ppg0</a>
+</li>
+<li>NDER8
+: <a class="el" href="structst__ppg0.html#a0de69cf62d78c30c2838d4e3dcdc5204">st_ppg0</a>
+</li>
+<li>NDER9
+: <a class="el" href="structst__ppg0.html#a2de93bbc68e9444317278d9af49ea7fc">st_ppg0</a>
+</li>
+<li>NDERH
+: <a class="el" href="structst__ppg0.html#ac093f132effa102c23741649ae3a4ef0">st_ppg0</a>
+, <a class="el" href="structst__ppg1.html#af268d2d37f2246579a8d31ed6e98711f">st_ppg1</a>
+</li>
+<li>NDERL
+: <a class="el" href="structst__ppg0.html#a683a41c493a1aacc6b9496aa51c13a0b">st_ppg0</a>
+, <a class="el" href="structst__ppg1.html#aeff89be6743caa52d6471fd3ac81a16b">st_ppg1</a>
+</li>
+<li>NDR0
+: <a class="el" href="structst__ppg0.html#aa81fb96f1d2aaca463d79b5fc55e71e0">st_ppg0</a>
+</li>
+<li>NDR1
+: <a class="el" href="structst__ppg0.html#a97cf7607f2f1f3f287daaf1adbdd5b2f">st_ppg0</a>
+</li>
+<li>NDR10
+: <a class="el" href="structst__ppg0.html#abd2e3efc06cb7fe6debc3a5ff30d9cac">st_ppg0</a>
+</li>
+<li>NDR11
+: <a class="el" href="structst__ppg0.html#aeefaa93852a78e41caae5dfb3a747582">st_ppg0</a>
+</li>
+<li>NDR12
+: <a class="el" href="structst__ppg0.html#a1289aba4b43b892d942525a4e181d526">st_ppg0</a>
+</li>
+<li>NDR13
+: <a class="el" href="structst__ppg0.html#a50c363acbc20aaab3e7a7ec20add2c87">st_ppg0</a>
+</li>
+<li>NDR14
+: <a class="el" href="structst__ppg0.html#a0f5eb42a314d783439f860be34b2f670">st_ppg0</a>
+</li>
+<li>NDR15
+: <a class="el" href="structst__ppg0.html#a7de30a6300ea18fae1b93c1265215e17">st_ppg0</a>
+</li>
+<li>NDR16
+: <a class="el" href="structst__ppg1.html#a256d0342c29e9b6461d8881eed357b14">st_ppg1</a>
+</li>
+<li>NDR17
+: <a class="el" href="structst__ppg1.html#a3c7e23048faf2b4b221ffffb1a3104e3">st_ppg1</a>
+</li>
+<li>NDR18
+: <a class="el" href="structst__ppg1.html#a33217ef266dc8285f8304a87c7d5830f">st_ppg1</a>
+</li>
+<li>NDR19
+: <a class="el" href="structst__ppg1.html#a326f43f23d07d768f4aee512187c56f3">st_ppg1</a>
+</li>
+<li>NDR2
+: <a class="el" href="structst__ppg0.html#ac70e63d21a30392bc4d675e490ac8d57">st_ppg0</a>
+</li>
+<li>NDR20
+: <a class="el" href="structst__ppg1.html#a1cb8eab5dd202f53928213693cfa9767">st_ppg1</a>
+</li>
+<li>NDR21
+: <a class="el" href="structst__ppg1.html#ae760c8dd67fc74d162ba7d840835ddff">st_ppg1</a>
+</li>
+<li>NDR22
+: <a class="el" href="structst__ppg1.html#a1505a887effc20779eeb26f61eb0adcc">st_ppg1</a>
+</li>
+<li>NDR23
+: <a class="el" href="structst__ppg1.html#afdb3ed4b199751076c15e580afec81a1">st_ppg1</a>
+</li>
+<li>NDR24
+: <a class="el" href="structst__ppg1.html#ae397271fd72ed02a02a6677d8aeb90dd">st_ppg1</a>
+</li>
+<li>NDR25
+: <a class="el" href="structst__ppg1.html#a01006c12a7b23914bf27bc37da6b6b46">st_ppg1</a>
+</li>
+<li>NDR26
+: <a class="el" href="structst__ppg1.html#a8b4025ceca4f7b498bbf15cb7936d535">st_ppg1</a>
+</li>
+<li>NDR27
+: <a class="el" href="structst__ppg1.html#a462f91dbba0129d0c8cf17ad16085a1b">st_ppg1</a>
+</li>
+<li>NDR28
+: <a class="el" href="structst__ppg1.html#a4ab8cfdbd5e16931a2c2685c18b1c81e">st_ppg1</a>
+</li>
+<li>NDR29
+: <a class="el" href="structst__ppg1.html#a767f6bf615dfc3a1157771a6bb119fe4">st_ppg1</a>
+</li>
+<li>NDR3
+: <a class="el" href="structst__ppg0.html#a0cc88fbd5fe16cd4b6dbab4685acdd6a">st_ppg0</a>
+</li>
+<li>NDR30
+: <a class="el" href="structst__ppg1.html#aaefedab0395072069f6841291b80ca81">st_ppg1</a>
+</li>
+<li>NDR31
+: <a class="el" href="structst__ppg1.html#af156988620a765704e258822c933e86b">st_ppg1</a>
+</li>
+<li>NDR4
+: <a class="el" href="structst__ppg0.html#a49523d7758760b71c89d803caa1d1d28">st_ppg0</a>
+</li>
+<li>NDR5
+: <a class="el" href="structst__ppg0.html#a8210985b2cc3baf2f452b5927f9d451f">st_ppg0</a>
+</li>
+<li>NDR6
+: <a class="el" href="structst__ppg0.html#a9dd14bbff033f806e4b698cfa2ec4393">st_ppg0</a>
+</li>
+<li>NDR7
+: <a class="el" href="structst__ppg0.html#a11542772305032c49181efb3e4dbd94f">st_ppg0</a>
+</li>
+<li>NDR8
+: <a class="el" href="structst__ppg0.html#a026af3286502d7a113fc022b0b5c52c0">st_ppg0</a>
+</li>
+<li>NDR9
+: <a class="el" href="structst__ppg0.html#a8a5b7b0974d6998b75aece1c5f407951">st_ppg0</a>
+</li>
+<li>NDRH
+: <a class="el" href="structst__ppg0.html#a7ec938f5656e2aaeaa5ac61987db6334">st_ppg0</a>
+, <a class="el" href="structst__ppg1.html#a346f260402d382aa47ffec5ed635d041">st_ppg1</a>
+</li>
+<li>NDRH2
+: <a class="el" href="structst__ppg0.html#a1a02c3a4a4c34925376ed64e6ac6869b">st_ppg0</a>
+, <a class="el" href="structst__ppg1.html#af9d2afde3041a84ec95373cdf7a52c8c">st_ppg1</a>
+</li>
+<li>NDRL
+: <a class="el" href="structst__ppg0.html#a395c6229fde479864b64cb93aa8b0d6b">st_ppg0</a>
+, <a class="el" href="structst__ppg1.html#a26db5581871b64a6832a40dea124367d">st_ppg1</a>
+</li>
+<li>NDRL2
+: <a class="el" href="structst__ppg0.html#a17b4cfbc805abe9dd303d7ceb8269745">st_ppg0</a>
+, <a class="el" href="structst__ppg1.html#a1c31f8e6f2514745d1a12ee84d3daa41">st_ppg1</a>
+</li>
+<li>NDST
+: <a class="el" href="structst__can.html#a408da023f841da0129e8ab41a220470e">st_can</a>
+</li>
+<li>NEWDATA
+: <a class="el" href="structst__can.html#a38cfb3aacfab008ca706d3a3112884ab">st_can</a>
+</li>
+<li>NF
+: <a class="el" href="structst__riic.html#ab45e7499ab1c40859283dfe12c056803">st_riic</a>
+</li>
+<li>NFAEN
+: <a class="el" href="structst__mtu0.html#a4f8c5a03de6040b7afc3c9d4bf15fbea">st_mtu0</a>
+, <a class="el" href="structst__mtu1.html#a32f0c96f410530f60edec59e6c05e88e">st_mtu1</a>
+, <a class="el" href="structst__mtu2.html#addd6eae5731afc310d06267b42b06c06">st_mtu2</a>
+, <a class="el" href="structst__mtu3.html#a5cf3b5ebe1b5e12844cbff88f24c0e20">st_mtu3</a>
+, <a class="el" href="structst__mtu4.html#ab4660ab56daea19a212f30af019bbe53">st_mtu4</a>
+, <a class="el" href="structst__tpu0.html#a2346d6a8690658c61f9c6a9bf16d8434">st_tpu0</a>
+, <a class="el" href="structst__tpu1.html#af33eb2403924257a5c7da25930a735fd">st_tpu1</a>
+, <a class="el" href="structst__tpu2.html#aff17d304cb080ace4e41e1d8269961da">st_tpu2</a>
+, <a class="el" href="structst__tpu3.html#aa4e0b8f6816ce3cec0c37657151c525b">st_tpu3</a>
+, <a class="el" href="structst__tpu4.html#af911ff247687359c909d129f5705df2b">st_tpu4</a>
+, <a class="el" href="structst__tpu5.html#a10752a65cc21d1ee07c34e7c0c82b0b2">st_tpu5</a>
+</li>
+<li>NFBEN
+: <a class="el" href="structst__mtu0.html#a2fd3720170364e942dcf98596cef8c3c">st_mtu0</a>
+, <a class="el" href="structst__mtu1.html#a26403a11a8892fc7098931236bb914ee">st_mtu1</a>
+, <a class="el" href="structst__mtu2.html#ac12bb97f543179c89981c67a3b54e1e7">st_mtu2</a>
+, <a class="el" href="structst__mtu3.html#a04c5a7bc48fcbe7c3b6bf60bd355f4a4">st_mtu3</a>
+, <a class="el" href="structst__mtu4.html#a553848d0ec04798e3fc313c48ea680c2">st_mtu4</a>
+, <a class="el" href="structst__tpu0.html#a1644fef8a2e396ac209c7bc31771309f">st_tpu0</a>
+, <a class="el" href="structst__tpu1.html#ac66f4d97f15b881e2168d9efc48720e3">st_tpu1</a>
+, <a class="el" href="structst__tpu2.html#acb33b64222c2b8d4a9e975f6de8766af">st_tpu2</a>
+, <a class="el" href="structst__tpu3.html#a6f5ed3bba77fe7534af94428f78dedf6">st_tpu3</a>
+, <a class="el" href="structst__tpu4.html#a796444c86a71c38ba11bb438386ad80e">st_tpu4</a>
+, <a class="el" href="structst__tpu5.html#a9683c7e76dc5ed4dff9d09c9a4b7e017">st_tpu5</a>
+</li>
+<li>NFCEN
+: <a class="el" href="structst__mtu0.html#a64eedaa999e60c912ea61f89002bf5d0">st_mtu0</a>
+, <a class="el" href="structst__mtu1.html#a3dcd9cfe92ece116e3312042ceaabbaf">st_mtu1</a>
+, <a class="el" href="structst__mtu2.html#aaca73301027ea551224a3ed2ace15e5f">st_mtu2</a>
+, <a class="el" href="structst__mtu3.html#a05020545405eb76216dae617e9e72742">st_mtu3</a>
+, <a class="el" href="structst__mtu4.html#aa58163cf733dd06b0c948301f5f80506">st_mtu4</a>
+, <a class="el" href="structst__tpu0.html#a31c8de2a97ad2d3c8043ec830d3d2eda">st_tpu0</a>
+, <a class="el" href="structst__tpu1.html#aa7c015e30e96250a67641ed063c653d7">st_tpu1</a>
+, <a class="el" href="structst__tpu2.html#a14d65a43b91e0eb97f7381a3510092be">st_tpu2</a>
+, <a class="el" href="structst__tpu3.html#a5b5c63fd5728ebd333f6e9ebce6570d7">st_tpu3</a>
+, <a class="el" href="structst__tpu4.html#af43fba4822fc8055f73f67945926a270">st_tpu4</a>
+, <a class="el" href="structst__tpu5.html#a9900bd2cda9305a33dabfb541c49a33c">st_tpu5</a>
+</li>
+<li>NFCLKSEL
+: <a class="el" href="structst__icu.html#a4e467b83d14c7a286680a8669fb9bfff">st_icu</a>
+</li>
+<li>NFCR
+: <a class="el" href="structst__mtu0.html#ae02bf1f7544030811869d8b965530725">st_mtu0</a>
+, <a class="el" href="structst__mtu1.html#a527c9ee75726d91302f5f728e3a2d17e">st_mtu1</a>
+, <a class="el" href="structst__mtu2.html#ae52382a9ef88be3163a193f6e9824c4a">st_mtu2</a>
+, <a class="el" href="structst__mtu3.html#a9106f04efaa0cfa0e3e468189a9ca926">st_mtu3</a>
+, <a class="el" href="structst__mtu4.html#a23277c6c1da60f81b6b61d80f8fe0ce8">st_mtu4</a>
+, <a class="el" href="structst__mtu5.html#aaf05595cbd0255c826117b01d303c513">st_mtu5</a>
+, <a class="el" href="structst__tpu0.html#af1f0c13cb68c425ad1eba3348f5f1860">st_tpu0</a>
+, <a class="el" href="structst__tpu1.html#a897f0768646c507c9383ab2db74c3a5c">st_tpu1</a>
+, <a class="el" href="structst__tpu2.html#aaa0491d836c3eed146e031bacc09a50f">st_tpu2</a>
+, <a class="el" href="structst__tpu3.html#a2a4563003b84ad9e91f360e298693b71">st_tpu3</a>
+, <a class="el" href="structst__tpu4.html#a8af442b81166aa61afd7453d355fc55b">st_tpu4</a>
+, <a class="el" href="structst__tpu5.html#a1e40b4348935f4b3798a30ba06281fc7">st_tpu5</a>
+</li>
+<li>NFCS
+: <a class="el" href="structst__mtu0.html#a40684da5b4a1aebfd4453ec080bd1b07">st_mtu0</a>
+, <a class="el" href="structst__mtu1.html#a4b338584b6edc3fa9ad10bf3c03296ed">st_mtu1</a>
+, <a class="el" href="structst__mtu2.html#a06313e7a0f6572a33df207a563c472e9">st_mtu2</a>
+, <a class="el" href="structst__mtu3.html#a1a356dc9e84ae9450b30bdd885c9eeab">st_mtu3</a>
+, <a class="el" href="structst__mtu4.html#a3a262aa04bcd5f5a1fd3da17222b6ec4">st_mtu4</a>
+, <a class="el" href="structst__mtu5.html#aef4f7600ed7240dc42f05e3cb0b7b5cd">st_mtu5</a>
+, <a class="el" href="structst__sci0.html#a70191086a318b7f0820ab308a59dd0c6">st_sci0</a>
+, <a class="el" href="structst__sci12.html#a18176bf5f5c92b0d16fe262f36fccb1c">st_sci12</a>
+, <a class="el" href="structst__tpu0.html#acd3501a8157a48a3cc33db0eba716712">st_tpu0</a>
+, <a class="el" href="structst__tpu1.html#a2a376c5a8d3cdccafc740e19e9cc5cd3">st_tpu1</a>
+, <a class="el" href="structst__tpu2.html#a86042ecddb3bb175d79254f28c8d734f">st_tpu2</a>
+, <a class="el" href="structst__tpu3.html#ac181c718ffcbb4eccf986d4dc4078a0e">st_tpu3</a>
+, <a class="el" href="structst__tpu4.html#a1368f72004a117e6387759374d830114">st_tpu4</a>
+, <a class="el" href="structst__tpu5.html#a7cb713e53bb787406482649efb05d895">st_tpu5</a>
+</li>
+<li>NFDEN
+: <a class="el" href="structst__mtu0.html#a84111027c3fa462d253bd8b1a7651898">st_mtu0</a>
+, <a class="el" href="structst__mtu1.html#a8254a222fd9430f071913869809c3d3a">st_mtu1</a>
+, <a class="el" href="structst__mtu2.html#a71613b24483538eb8a5e0f34629ec709">st_mtu2</a>
+, <a class="el" href="structst__mtu3.html#a96e1e2a686512061663bb0384fde61e3">st_mtu3</a>
+, <a class="el" href="structst__mtu4.html#a2509b6acc4cc575ddf2c300f37ee46cb">st_mtu4</a>
+, <a class="el" href="structst__tpu0.html#a68dc8cf5b2714a5ac5923deaa66bd388">st_tpu0</a>
+, <a class="el" href="structst__tpu1.html#aa69fe4881cbb59ff4e50932370577fc7">st_tpu1</a>
+, <a class="el" href="structst__tpu2.html#af2ed2cacc04c5b1191a6e23a34e6a3c2">st_tpu2</a>
+, <a class="el" href="structst__tpu3.html#a130a494b52d41bd004f337dde64a525c">st_tpu3</a>
+, <a class="el" href="structst__tpu4.html#accad30dfc97df91aca6c1bfc37054fda">st_tpu4</a>
+, <a class="el" href="structst__tpu5.html#aaa9006cbc3c0540de456a3e68c726d32">st_tpu5</a>
+</li>
+<li>NFE
+: <a class="el" href="structst__riic.html#adfcae9c745e68055f6d9dfb6f662c73d">st_riic</a>
+</li>
+<li>NFEN
+: <a class="el" href="structst__sci0.html#a8ad46a39c0d6e9594a6440bb95ed345c">st_sci0</a>
+, <a class="el" href="structst__sci12.html#af873e9f5f0ea4ae1ae3a7afbcafadb85">st_sci12</a>
+</li>
+<li>NFLTEN
+: <a class="el" href="structst__icu.html#a810e079aab8589ca691d481987eef45c">st_icu</a>
+</li>
+<li>NFUEN
+: <a class="el" href="structst__mtu5.html#a2d8107515ee7ce0c2dbffae6b57a87e5">st_mtu5</a>
+</li>
+<li>NFVEN
+: <a class="el" href="structst__mtu5.html#a84cf51e9b82e46b40a80b35664d1d091">st_mtu5</a>
+</li>
+<li>NFWEN
+: <a class="el" href="structst__mtu5.html#a01e921e18661b5ca8ffb859fc0f782d1">st_mtu5</a>
+</li>
+<li>NMICLR
+: <a class="el" href="structst__icu.html#afb9ffef86f2cc276236fccde4b7a2c9b">st_icu</a>
+</li>
+<li>NMICR
+: <a class="el" href="structst__icu.html#aa8c0b253a39053a0e3d02c62822ae312">st_icu</a>
+</li>
+<li>NMIEN
+: <a class="el" href="structst__icu.html#ad63d1aa396cd30bbc076c3611ff7348c">st_icu</a>
+</li>
+<li>NMIER
+: <a class="el" href="structst__icu.html#a10d505d2dedd77334a7bd0e2cdba0c00">st_icu</a>
+</li>
+<li>NMIFLTC
+: <a class="el" href="structst__icu.html#ae15891d0c41097c5ca57d0c1630c5bf0">st_icu</a>
+</li>
+<li>NMIFLTE
+: <a class="el" href="structst__icu.html#ae24d777b378ec40ed600d676ea7abc1f">st_icu</a>
+</li>
+<li>NMIMD
+: <a class="el" href="structst__icu.html#a46dcdca4a98e8c9cafceae3674010cff">st_icu</a>
+</li>
+<li>NMISR
+: <a class="el" href="structst__icu.html#ac1bd5423a176b5cddf713833125085c5">st_icu</a>
+</li>
+<li>NMIST
+: <a class="el" href="structst__icu.html#a38136be2c392f4cefcc3da04d6bd148a">st_icu</a>
+</li>
+<li>NMLST
+: <a class="el" href="structst__can.html#a00cea62d141be1baccc94b5277c9b635">st_can</a>
+</li>
+<li>NRDY
+: <a class="el" href="structst__usb0.html#af797913a4ee105f7d751e9ff2ce2e203">st_usb0</a>
+, <a class="el" href="structst__usb1.html#afee7aa5d6a29b13e616bb690836043e2">st_usb1</a>
+</li>
+<li>NRDYE
+: <a class="el" href="structst__usb0.html#a2433b2c785af416f5f0802c2fc47e74f">st_usb0</a>
+, <a class="el" href="structst__usb1.html#a2ec4d49d4c4fa752fc00a3a8d8dba471">st_usb1</a>
+</li>
+<li>NRDYENB
+: <a class="el" href="structst__usb0.html#a7e09c85f38464d5ab57e40df7c7a6927">st_usb0</a>
+, <a class="el" href="structst__usb1.html#a3c37f849af79aa727225a02980f3eee5">st_usb1</a>
+</li>
+<li>NRDYSTS
+: <a class="el" href="structst__usb0.html#a2c1c0ae6bf41c0af74202e3a180239c1">st_usb0</a>
+, <a class="el" href="structst__usb1.html#a5152afaecfca6f5b6f2a0df5892388a5">st_usb1</a>
+</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Erzeugt am Fre Okt 21 2016 11:14:28 für YRDKRX63N Board-Support-Package von &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.10
+</small></address>
+</body>
+</html>

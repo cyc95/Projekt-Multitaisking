@@ -1,0 +1,6 @@
+<map id="cos_ser.h" name="cos_ser.h">
+<area shape="rect" id="node2" href="$cos__data__fifo_8c.html" title="Daten&#45;FIFO fuer COS auf renesas RX63N. " alt="" coords="5,80,115,107"/>
+<area shape="rect" id="node3" href="$cos__linear__task__list_8c.html" title="Dies ist die renesas Version der COS Task&#45;Liste. " alt="" coords="139,80,287,107"/>
+<area shape="rect" id="node4" href="$cos__scheduler_8c.html" title="Dies ist die Version von COS fuer renesas&#45;Controller. " alt="" coords="312,80,429,107"/>
+<area shape="rect" id="node5" href="$cos__ser_8c.html" title="Diese Datei enthaelt Routinen fuer die serielle Schnittstelle der renesas Controller. Es wird das bsp (Zink) genutzt. Die Routinen nutzen putchar() und getchar() " alt="" coords="454,80,533,107"/>
+</map>

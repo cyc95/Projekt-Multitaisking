@@ -1,0 +1,5 @@
+<map id="CosFifo_t" name="CosFifo_t">
+<area shape="rect" id="node2" href="$struct_cos_sema__t.html" title="CosSema_t" alt="" coords="5,184,96,211"/>
+<area shape="rect" id="node3" href="$struct_node__t.html" title="Node_t" alt="" coords="19,95,82,121"/>
+<area shape="rect" id="node4" href="$struct_cos_task__t.html" title="CosTask_t" alt="" coords="9,5,93,32"/>
+</map>

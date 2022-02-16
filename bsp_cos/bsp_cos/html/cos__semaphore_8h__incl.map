@@ -1,0 +1,6 @@
+<map id="cos_semaphore.h" name="cos_semaphore.h">
+<area shape="rect" id="node2" href="$cos__scheduler_8h.html" title="Renesas Version des &#39;co&#45;operative&#39; Tasking Systems (COS) " alt="" coords="15,80,132,107"/>
+<area shape="rect" id="node5" href="$cos__linear__task__list_8h.html" title="Dies ist die renesas Version des &#39;co&#45;operative&#39; Schedulers. " alt="" coords="95,155,243,181"/>
+<area shape="rect" id="node3" href="$cos__systime_8h.html" title="Dieses Modul benutzt CMT0 als Systemuhr auf renesas contoller. " alt="" coords="5,229,112,256"/>
+<area shape="rect" id="node4" href="$cos__types_8h.html" title="Typdefinitionen fuer COS auf renesas RX63N. " alt="" coords="12,304,105,331"/>
+</map>

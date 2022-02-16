@@ -1,0 +1,5 @@
+<map id="cos_scheduler.h" name="cos_scheduler.h">
+<area shape="rect" id="node2" href="$cos__systime_8h.html" title="Dieses Modul benutzt CMT0 als Systemuhr auf renesas contoller. " alt="" coords="5,155,112,181"/>
+<area shape="rect" id="node4" href="$cos__linear__task__list_8h.html" title="Dies ist die renesas Version des &#39;co&#45;operative&#39; Schedulers. " alt="" coords="95,80,243,107"/>
+<area shape="rect" id="node3" href="$cos__types_8h.html" title="Typdefinitionen fuer COS auf renesas RX63N. " alt="" coords="12,229,105,256"/>
+</map>

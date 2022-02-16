@@ -1,0 +1,11 @@
+<map id="bsp.h" name="bsp.h">
+<area shape="rect" id="node2" href="$assert_8c.html" title="Implementierung der Funktion &#160;void __assert( const char * file , int line , const char * expr ) ..." alt="" coords="5,80,75,107"/>
+<area shape="rect" id="node3" href="$isr_8h.html" title="Prototypen der Interruptserviceroutinen. " alt="" coords="150,80,197,107"/>
+<area shape="rect" id="node5" href="$isr_8c.html" title="Implementierung der Interruptserviceroutinen. " alt="" coords="49,155,95,181"/>
+<area shape="rect" id="node6" href="$vctbl_8c.html" title="Instanziierung der Interruptvektortabelle. " alt="" coords="251,155,309,181"/>
+<area shape="rect" id="node7" href="$exit_8c.html" title="Implementierung der Funktion void _exit( int err ). " alt="" coords="273,80,327,107"/>
+<area shape="rect" id="node8" href="$hwsetup_8c.html" title="Initialisierung der Hardware. " alt="" coords="351,80,433,107"/>
+<area shape="rect" id="node9" href="$read_8c.html" title="Implementierung der Funktion int _read( int fd, char * buf, int cnt ). " alt="" coords="457,80,516,107"/>
+<area shape="rect" id="node10" href="$write_8c.html" title="Implementierung der Funktion int _write( int fd, const char * buf, int cnt ). " alt="" coords="541,80,601,107"/>
+<area shape="rect" id="node4" href="$cos__systime_8c.html" title="Dieses Modul benutzt CMT0 als Systemuhr. Es wird in COS gebraucht. " alt="" coords="120,155,227,181"/>
+</map>

@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>BUTTON: Hauptseite</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">BUTTON
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Erzeugt von Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li class="current"><a href="index.html"><span>Hauptseite</span></a></li>
+      <li><a href="files.html"><span>Dateien</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Suchen" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Alle</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Dateien</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Makrodefinitionen</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">BUTTON Dokumentation</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><dl class="section user"><dt>Installation</dt><dd>Um die Makros <a class="el" href="button_8h.html#a81a7cf028632fadb846a0340b60fd92f" title="Initialisieren der den Tastern zugeordneten Register. ">buttonInitialize()</a>, <a class="el" href="button_8h.html#a895f4356efb9c1601d5b5a9b61410dc2" title="Zustand eines Tasters abfragen. ">buttonIsPressed(x)</a> und <a class="el" href="button_8h.html#a43cebb79c0e6146c960d5b513b936f74" title="Zustand eines Tasters abfragen. ">buttonIsReleased(x)</a> nutzen zu können, müssen Sie die Datei <a class="el" href="button_8h.html" title="Makros für die Nutzung der Taster SWITCH 1, SWICTH 2 und SWITCH3 des YRDKRX63N. ">button.h</a> in ihr Projektverzeichnis kopieren und in ihr Projekt inkludieren.</dd></dl>
+<dl class="section user"><dt>Funktion</dt><dd>Rufen Sie zunächst das Makro <a class="el" href="button_8h.html#a81a7cf028632fadb846a0340b60fd92f" title="Initialisieren der den Tastern zugeordneten Register. ">buttonInitialize()</a> auf. Sie haben nun die Möglichkeit mit den Makros <a class="el" href="button_8h.html#a895f4356efb9c1601d5b5a9b61410dc2" title="Zustand eines Tasters abfragen. ">buttonIsPressed(x)</a> und <a class="el" href="button_8h.html#a43cebb79c0e6146c960d5b513b936f74" title="Zustand eines Tasters abfragen. ">buttonIsReleased(x)</a> den Zustand der drei Taster SW1, SW2 und SW3 zu erfragen.</dd></dl>
+<dl class="section user"><dt>Verbindungen</dt><dd><pre class="fragment">  Name auf dem Board |   Argument an Makros  |     Port      |     Bit
+---------------------+-----------------------+---------------+--------------
+       SWITCH 1      |        BUTTON1        |       4       |      0
+       SWITCH 2      |        BUTTON2        |       4       |      1
+       SWITCH 3      |        BUTTON3        |       4       |      4
+         SW4         |     nicht nutzbar     |       -       |      -
+</pre></dd></dl>
+<dl class="section user"><dt>Beispielprogramm</dt><dd><div class="fragment"><div class="line"><span class="preprocessor">#define BUTTON_BLOCK 1                      // alternativ kann die konstante BUTTON_BLOCK auch in button.h belegt werden</span></div>
+<div class="line"><span class="preprocessor">#include &quot;<a class="code" href="button_8h.html">button.h</a>&quot;</span></div>
+<div class="line"></div>
+<div class="line"></div>
+<div class="line"><span class="keywordtype">void</span> main(<span class="keywordtype">void</span>) {</div>
+<div class="line"></div>
+<div class="line">    <a class="code" href="button_8h.html#a81a7cf028632fadb846a0340b60fd92f">buttonInitialize</a>();                     <span class="comment">// init</span></div>
+<div class="line"></div>
+<div class="line"><span class="preprocessor">#if BUTTON_BLOCK</span></div>
+<div class="line"></div>
+<div class="line">    <a class="code" href="button_8h.html#a895f4356efb9c1601d5b5a9b61410dc2">buttonIsPressed</a>(<a class="code" href="button_8h.html#a8b8426d5c8d4a02dc1b15353d4bc613d">BUTTON1</a>);               <span class="comment">// blockiert bis switch 1 betätigt ist</span></div>
+<div class="line"></div>
+<div class="line">    <span class="comment">// irgend etwas machen</span></div>
+<div class="line"></div>
+<div class="line">    <a class="code" href="button_8h.html#a895f4356efb9c1601d5b5a9b61410dc2">buttonIsPressed</a>(<a class="code" href="button_8h.html#acad5ba277242dbcd68edaff5f550f29e">BUTTON2</a>);               <span class="comment">// blockiert bis switch 2 betätigt ist</span></div>
+<div class="line"></div>
+<div class="line">    <span class="comment">// irgend etwas anderes machen</span></div>
+<div class="line"></div>
+<div class="line">    <a class="code" href="button_8h.html#a895f4356efb9c1601d5b5a9b61410dc2">buttonIsPressed</a>(<a class="code" href="button_8h.html#a64f0a5235b4b24fb04f54fb437011c75">BUTTON3</a>);               <span class="comment">// blockiert bis switch 3 betätigt ist</span></div>
+<div class="line"></div>
+<div class="line">    <span class="comment">// hier dann auch was machen</span></div>
+<div class="line"></div>
+<div class="line">    <a class="code" href="button_8h.html#a43cebb79c0e6146c960d5b513b936f74">buttonIsReleased</a>(<a class="code" href="button_8h.html#a64f0a5235b4b24fb04f54fb437011c75">BUTTON3</a>);              <span class="comment">// blockiert bis switch 3 unbetätigt ist</span></div>
+<div class="line"></div>
+<div class="line">    <span class="comment">// es gibt viel zu tun</span></div>
+<div class="line"></div>
+<div class="line">    <a class="code" href="button_8h.html#a43cebb79c0e6146c960d5b513b936f74">buttonIsReleased</a>(<a class="code" href="button_8h.html#acad5ba277242dbcd68edaff5f550f29e">BUTTON2</a>);              <span class="comment">// blockiert bis switch 2 unbetätigt ist</span></div>
+<div class="line"></div>
+<div class="line">    <span class="comment">// und wir sind immer noch nicht fertig</span></div>
+<div class="line"></div>
+<div class="line">    <a class="code" href="button_8h.html#a43cebb79c0e6146c960d5b513b936f74">buttonIsReleased</a>(<a class="code" href="button_8h.html#a8b8426d5c8d4a02dc1b15353d4bc613d">BUTTON1</a>);              <span class="comment">// blockiert bis switch 1 unbetätigt ist</span></div>
+<div class="line"></div>
+<div class="line">    <span class="comment">// jetzt haben wir es geschafft</span></div>
+<div class="line"></div>
+<div class="line"><span class="preprocessor">#else</span></div>
+<div class="line"></div>
+<div class="line">    <span class="keywordflow">while</span> ( <a class="code" href="button_8h.html#a43cebb79c0e6146c960d5b513b936f74">buttonIsReleased</a>(<a class="code" href="button_8h.html#a8b8426d5c8d4a02dc1b15353d4bc613d">BUTTON1</a>) );    <span class="comment">// blockiert bis switch 1 betätigt ist</span></div>
+<div class="line"></div>
+<div class="line">    <span class="comment">// irgend etwas machen</span></div>
+<div class="line"></div>
+<div class="line">    <span class="keywordflow">while</span> ( <a class="code" href="button_8h.html#a43cebb79c0e6146c960d5b513b936f74">buttonIsReleased</a>(<a class="code" href="button_8h.html#acad5ba277242dbcd68edaff5f550f29e">BUTTON2</a>) );    <span class="comment">// blockiert bis switch 2 betätigt ist</span></div>
+<div class="line"></div>
+<div class="line">    <span class="comment">// irgend etwas anderes machen</span></div>
+<div class="line"></div>
+<div class="line">    <span class="keywordflow">while</span> ( <a class="code" href="button_8h.html#a43cebb79c0e6146c960d5b513b936f74">buttonIsReleased</a>(<a class="code" href="button_8h.html#a64f0a5235b4b24fb04f54fb437011c75">BUTTON3</a>) );    <span class="comment">// blockiert bis switch 3 betätigt ist</span></div>
+<div class="line"></div>
+<div class="line">    <span class="comment">// hier dann auch was machen</span></div>
+<div class="line"></div>
+<div class="line">    <span class="keywordflow">while</span> ( <a class="code" href="button_8h.html#a895f4356efb9c1601d5b5a9b61410dc2">buttonIsPressed</a>(<a class="code" href="button_8h.html#a64f0a5235b4b24fb04f54fb437011c75">BUTTON3</a>) );     <span class="comment">// blockiert bis switch 3 unbetätigt ist</span></div>
+<div class="line"></div>
+<div class="line">    <span class="comment">// es gibt viel zu tun</span></div>
+<div class="line"></div>
+<div class="line">    <span class="keywordflow">while</span> ( <a class="code" href="button_8h.html#a895f4356efb9c1601d5b5a9b61410dc2">buttonIsPressed</a>(<a class="code" href="button_8h.html#acad5ba277242dbcd68edaff5f550f29e">BUTTON2</a>) );     <span class="comment">// blockiert bis switch 2 unbetätigt ist</span></div>
+<div class="line"></div>
+<div class="line">    <span class="comment">// und wir sind immer noch nicht fertig</span></div>
+<div class="line"></div>
+<div class="line">    <span class="keywordflow">while</span> ( <a class="code" href="button_8h.html#a895f4356efb9c1601d5b5a9b61410dc2">buttonIsPressed</a>(<a class="code" href="button_8h.html#a8b8426d5c8d4a02dc1b15353d4bc613d">BUTTON1</a>) );     <span class="comment">// blockiert bis switch 1 unbetätigt ist</span></div>
+<div class="line"></div>
+<div class="line">    <span class="comment">// jetzt haben wir es geschafft</span></div>
+<div class="line"></div>
+<div class="line"><span class="preprocessor">#endif</span></div>
+<div class="line"></div>
+<div class="line">}</div>
+</div><!-- fragment --> </dd></dl>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Erzeugt am Sam Mai 16 2015 19:56:27 für BUTTON von &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>

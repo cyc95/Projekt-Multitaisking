@@ -1,0 +1,584 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.10"/>
+<title>YRDKRX63N Board-Support-Package: spi.c-Dateireferenz</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">YRDKRX63N Board-Support-Package
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Erzeugt von Doxygen 1.8.10 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Hauptseite</span></a></li>
+      <li><a href="annotated.html"><span>Datenstrukturen</span></a></li>
+      <li class="current"><a href="files.html"><span>Dateien</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Suchen" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Auflistung&#160;der&#160;Dateien</span></a></li>
+      <li><a href="globals.html"><span>Datei-Elemente</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Funktionen</a> &#124;
+<a href="#var-members">Variablen</a>  </div>
+  <div class="headertitle">
+<div class="title">spi.c-Dateireferenz</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>C-Quell-Datei des Moduls spi. Konstanten und Funktionen für die SPI-Kommunikation.  
+<a href="#details">Mehr ...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="spi_8h_source.html">spi.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="iodefine_8h_source.html">iodefine.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include-Abhängigkeitsdiagramm für spi.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="spi_8c__incl.png" border="0" usemap="#spi_8c" alt=""/></div>
+<map name="spi_8c" id="spi_8c">
+<area shape="rect" id="node2" href="spi_8h.html" title="C&#45;Header&#45;Datei des Moduls spi. Konstanten und Funktionen für die SPI&#45;Kommunikation. " alt="" coords="5,80,55,107"/>
+<area shape="rect" id="node3" href="iodefine_8h.html" title="Registerdefinitionen und Makros für den Registerzugriff. " alt="" coords="79,80,157,107"/>
+</map>
+</div>
+</div>
+<p><a href="spi_8c_source.html">gehe zum Quellcode dieser Datei</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Funktionen</h2></td></tr>
+<tr class="memitem:aebc03d119a48ae58f3e60cce9ea760d2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi_8c.html#aebc03d119a48ae58f3e60cce9ea760d2">spiInitializeChannel</a> (int channel)</td></tr>
+<tr class="memdesc:aebc03d119a48ae58f3e60cce9ea760d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialisierung eines SPI-Kanals.  <a href="#aebc03d119a48ae58f3e60cce9ea760d2">Mehr ...</a><br /></td></tr>
+<tr class="separator:aebc03d119a48ae58f3e60cce9ea760d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4679c504bad427de12a001239375120"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi_8c.html#aa4679c504bad427de12a001239375120">spiFinalizeChannel</a> (int channel, unsigned long processID)</td></tr>
+<tr class="memdesc:aa4679c504bad427de12a001239375120"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deinitialisieren eines SPI-Kanals.  <a href="#aa4679c504bad427de12a001239375120">Mehr ...</a><br /></td></tr>
+<tr class="separator:aa4679c504bad427de12a001239375120"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad66bb335cfae0ca9a29f5d649fc9787e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi_8c.html#ad66bb335cfae0ca9a29f5d649fc9787e">spiLockChannel</a> (int channel, unsigned long processID)</td></tr>
+<tr class="memdesc:ad66bb335cfae0ca9a29f5d649fc9787e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sperren eines SPI-Kanals.  <a href="#ad66bb335cfae0ca9a29f5d649fc9787e">Mehr ...</a><br /></td></tr>
+<tr class="separator:ad66bb335cfae0ca9a29f5d649fc9787e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa532cbafe5ddc7e66b3a37c1e0439121"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi_8c.html#aa532cbafe5ddc7e66b3a37c1e0439121">spiUnlockChannel</a> (int channel, unsigned long processID)</td></tr>
+<tr class="memdesc:aa532cbafe5ddc7e66b3a37c1e0439121"><td class="mdescLeft">&#160;</td><td class="mdescRight">Entsperren eines SPI-Kanals.  <a href="#aa532cbafe5ddc7e66b3a37c1e0439121">Mehr ...</a><br /></td></tr>
+<tr class="separator:aa532cbafe5ddc7e66b3a37c1e0439121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3f7011110b2f50cf49ec832c6b760d3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi_8c.html#aa3f7011110b2f50cf49ec832c6b760d3">spiCheckChannelLock</a> (int channel, unsigned long processID)</td></tr>
+<tr class="memdesc:aa3f7011110b2f50cf49ec832c6b760d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sperrabfrage eines SPI-Kanals.  <a href="#aa3f7011110b2f50cf49ec832c6b760d3">Mehr ...</a><br /></td></tr>
+<tr class="separator:aa3f7011110b2f50cf49ec832c6b760d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0afb6c925027dc3d4014bced8bb15031"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi_8c.html#a0afb6c925027dc3d4014bced8bb15031">spiSelectSlave</a> (int channel, int slave, unsigned long processID)</td></tr>
+<tr class="memdesc:a0afb6c925027dc3d4014bced8bb15031"><td class="mdescLeft">&#160;</td><td class="mdescRight">Anwahl eines Slaves.  <a href="#a0afb6c925027dc3d4014bced8bb15031">Mehr ...</a><br /></td></tr>
+<tr class="separator:a0afb6c925027dc3d4014bced8bb15031"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a176e6edd4a839b288adf98de3cef454f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi_8c.html#a176e6edd4a839b288adf98de3cef454f">spiDeselectSlave</a> (int channel, int slave, unsigned long processID)</td></tr>
+<tr class="memdesc:a176e6edd4a839b288adf98de3cef454f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abwahl eines Slaves.  <a href="#a176e6edd4a839b288adf98de3cef454f">Mehr ...</a><br /></td></tr>
+<tr class="separator:a176e6edd4a839b288adf98de3cef454f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20ca0b80a7370f78dfc1c8372e8e771a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi_8c.html#a20ca0b80a7370f78dfc1c8372e8e771a">spiTransmitByte</a> (int channel, unsigned char byte, unsigned long processID)</td></tr>
+<tr class="memdesc:a20ca0b80a7370f78dfc1c8372e8e771a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Senden eines Zeichens auf einem SPI-Kanal.  <a href="#a20ca0b80a7370f78dfc1c8372e8e771a">Mehr ...</a><br /></td></tr>
+<tr class="separator:a20ca0b80a7370f78dfc1c8372e8e771a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variablen</h2></td></tr>
+<tr class="memitem:ac46160e336684748a602d8f891f8c5a9"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi_8c.html#ac46160e336684748a602d8f891f8c5a9">isInitialized</a> [3] = { 0, 0, 0 }</td></tr>
+<tr class="separator:ac46160e336684748a602d8f891f8c5a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab86a4107bd2e86d802dcc3a5def75eaf"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi_8c.html#ab86a4107bd2e86d802dcc3a5def75eaf">isLocked</a> [3] = { 0, 0, 0 }</td></tr>
+<tr class="separator:ab86a4107bd2e86d802dcc3a5def75eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa46e3a11af29e4e1412d35e2ef269fe0"><td class="memItemLeft" align="right" valign="top">static unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi_8c.html#aa46e3a11af29e4e1412d35e2ef269fe0">processIDs</a> [3] = { 0, 0, 0 }</td></tr>
+<tr class="separator:aa46e3a11af29e4e1412d35e2ef269fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06c73cc944e8a1abb92eb67435c28c6d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="spi_8c.html#a06c73cc944e8a1abb92eb67435c28c6d">semaphore</a> = 0</td></tr>
+<tr class="separator:a06c73cc944e8a1abb92eb67435c28c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Ausführliche Beschreibung</h2>
+<div class="textblock"><p>C-Quell-Datei des Moduls spi. Konstanten und Funktionen für die SPI-Kommunikation. </p>
+<dl class="section author"><dt>Autor</dt><dd>Christopher Zink</dd></dl>
+<dl class="section version"><dt>Version</dt><dd>1.0</dd></dl>
+<dl class="section date"><dt>Datum</dt><dd>Juni 2015</dd></dl>
+<dl class="section user"><dt>Vorlage</dt><dd>Als Vorlage für dieses Modul haben die Datei r_rspi_rx600.h, r_rspi_rx600_config.h und r_rspi_rx600.c von Renesas fungiert. </dd></dl>
+
+<p>Definiert in Datei <a class="el" href="spi_8c_source.html">spi.c</a>.</p>
+</div><h2 class="groupheader">Dokumentation der Funktionen</h2>
+<a class="anchor" id="aa3f7011110b2f50cf49ec832c6b760d3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int spiCheckChannelLock </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long&#160;</td>
+          <td class="paramname"><em>processID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sperrabfrage eines SPI-Kanals. </p>
+<p>Erfragt ob der SPI-Kanal <code>channel</code> gesperrt ist und der aufrufende Prozess/ die aufrufende Task siese Sperre hält.</p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>Index des abzufragenden Kanals. </td></tr>
+    <tr><td class="paramname">processID</td><td>ID des aufrufenden Prozesses/ der aufrufenden Task</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Rückgabe</dt><dd>Wenn der Kanal nicht gesperrt ist oder der Kanal gesperrt ist und der aufrufenden Prozess diese Sperre hält, gibt die Funktion <a class="el" href="spi_8h.html#adfbed5f2510d188c3b757370a4ffb263">spiERROR_NONE</a> zurück. Sonst wird eine negative Zahl zurückgegeben, die den Fehler beschreibt (siehe <a class="el" href="spi_8h.html#a35304da895593c8f3d88d2781d191fb9">spiERROR_UNSUPPORTED_OPERATION</a>, <a class="el" href="spi_8h.html#a7c947c9ec6e6652dc50c12a663f05a6f">spiERROR_INVALID_ARGUMENT</a>, <a class="el" href="spi_8h.html#ae463a15be1ec42deec472596d9ee0478">spiERROR_CHANNEL_FINALIZED</a>, <a class="el" href="spi_8h.html#a9388bfad2981d664dcb3bace3dc858dd">spiERROR_SEMAPHORE_TAKEN</a> oder <a class="el" href="spi_8h.html#a72c0bb520f35aede0b905e7baa7e1c30">spiERROR_CHANNEL_LOCKED</a>). </dd></dl>
+
+<p>Definiert in Zeile <a class="el" href="spi_8c_source.html#l00743">743</a> der Datei <a class="el" href="spi_8c_source.html">spi.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a176e6edd4a839b288adf98de3cef454f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int spiDeselectSlave </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>slave</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long&#160;</td>
+          <td class="paramname"><em>processID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Abwahl eines Slaves. </p>
+<p>Wählt einen der 4 möglichen Slaves LCD, WiFi, Flash oder MicroSD ab indem der entsprechende Chip-Select auf 1 gesetzt wird. Die wird nur ausgeführt, wenn der SPI-Kanal <code>channel</code> nicht gesperrt ist oder der aufrufende Prozess/ die aufrufende Task diese Sperre hält.</p>
+<dl class="section note"><dt>Zu beachten</dt><dd>Aktuell ist nur die Abwahl des LCD implementiert!</dd></dl>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>SPI-Kanal </td></tr>
+    <tr><td class="paramname">slave</td><td>Hiermit geben Sie an welcher Slave abgewählt werden soll. Nutzen Sie <a class="el" href="spi_8h.html#ab3722c4236d46602caf9f58d3f79b132">spiSELECT_LCD</a>, <a class="el" href="spi_8h.html#a511b27a057bc8041ff38c25b2c9885c1">spiSELECT_FLASH</a>, <a class="el" href="spi_8h.html#a3f94f354bd3d994ab8185e786281ee7b">spiSELECT_MICROSD</a> oder <a class="el" href="spi_8h.html#a38b03c3dba17b3453a4b0008f361c5b9">spiSELECT_WIFI</a>. </td></tr>
+    <tr><td class="paramname">processID</td><td>ID des aufrufenden Prozesses/ der aufrufenden Task.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Rückgabe</dt><dd>Bei erfolgreicher Abwahl des vorgegebenen Slaves wird <a class="el" href="spi_8h.html#adfbed5f2510d188c3b757370a4ffb263">spiERROR_NONE</a> zurückgegeben. Beim Auftreten eines Fehlers wird eine negative Zahl, die den Fehler beschreibt, zurückgegeben (siehe <a class="el" href="spi_8h.html#a35304da895593c8f3d88d2781d191fb9">spiERROR_UNSUPPORTED_OPERATION</a>, <a class="el" href="spi_8h.html#a7c947c9ec6e6652dc50c12a663f05a6f">spiERROR_INVALID_ARGUMENT</a>, <a class="el" href="spi_8h.html#a9388bfad2981d664dcb3bace3dc858dd">spiERROR_SEMAPHORE_TAKEN</a>, <a class="el" href="spi_8h.html#a72c0bb520f35aede0b905e7baa7e1c30">spiERROR_CHANNEL_LOCKED</a> oder <a class="el" href="spi_8h.html#ae463a15be1ec42deec472596d9ee0478">spiERROR_CHANNEL_FINALIZED</a>). </dd></dl>
+
+<p>Definiert in Zeile <a class="el" href="spi_8c_source.html#l00982">982</a> der Datei <a class="el" href="spi_8c_source.html">spi.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa4679c504bad427de12a001239375120"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int spiFinalizeChannel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long&#160;</td>
+          <td class="paramname"><em>processID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deinitialisieren eines SPI-Kanals. </p>
+<p>Beschreibt die Register, die <a class="el" href="spi_8c.html#aebc03d119a48ae58f3e60cce9ea760d2" title="Initialisierung eines SPI-Kanals. ">spiInitializeChannel( )</a> beschrieben hat, mit ihren Initialwerten.</p>
+<dl class="section return"><dt>Rückgabe</dt><dd>Bei erfolgreichem Verlauf wird <a class="el" href="spi_8h.html#adfbed5f2510d188c3b757370a4ffb263">spiERROR_NONE</a> zurückgegeben. Im Falle eines Fehlers wird eine negative Zahl, die den Fehler beschreibt, zurückgegeben (siehe <a class="el" href="spi_8h.html#a35304da895593c8f3d88d2781d191fb9">spiERROR_UNSUPPORTED_OPERATION</a>, <a class="el" href="spi_8h.html#a7c947c9ec6e6652dc50c12a663f05a6f">spiERROR_INVALID_ARGUMENT</a>, <a class="el" href="spi_8h.html#a9388bfad2981d664dcb3bace3dc858dd">spiERROR_SEMAPHORE_TAKEN</a> oder <a class="el" href="spi_8h.html#a72c0bb520f35aede0b905e7baa7e1c30">spiERROR_CHANNEL_LOCKED</a>). </dd></dl>
+
+<p>Definiert in Zeile <a class="el" href="spi_8c_source.html#l00383">383</a> der Datei <a class="el" href="spi_8c_source.html">spi.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aebc03d119a48ae58f3e60cce9ea760d2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int spiInitializeChannel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channel</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialisierung eines SPI-Kanals. </p>
+<p>Initialisiert den SPI-Kanal mit dem Index <code>channel</code>.</p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>Index des zu initialisierenden SPI-Kanals. Nutzen Sie <a class="el" href="spi_8h.html#a918b88d0ce77aa9a16bb23c2af8ea2ef">spiCHANNEL_0</a>, <a class="el" href="spi_8h.html#a65e3a5b1534a51c33ece3ddbb94210a0">spiCHANNEL_1</a> oder <a class="el" href="spi_8h.html#abf0eb1ca592948a774deb1ccd444b08e">spiCHANNEL_2</a>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Rückgabe</dt><dd>Bei erfolgreicher Initialisierung wird <a class="el" href="spi_8h.html#adfbed5f2510d188c3b757370a4ffb263">spiERROR_NONE</a> zurückgegeben. Im Falle eines Fehlers wird eine negative Zahl (siehe spiERROR_*) zurückgegeben. </dd></dl>
+
+<p>Definiert in Zeile <a class="el" href="spi_8c_source.html#l00129">129</a> der Datei <a class="el" href="spi_8c_source.html">spi.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad66bb335cfae0ca9a29f5d649fc9787e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int spiLockChannel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long&#160;</td>
+          <td class="paramname"><em>processID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sperren eines SPI-Kanals. </p>
+<p>Diese Funktion sperrt den SPI-Kanal mit dem Index <code>channel</code> für den aufrufenden Prozess/ die aufrufende Task.</p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>Index des zu sperrenden Kanals. Nutzen Sie <a class="el" href="spi_8h.html#a918b88d0ce77aa9a16bb23c2af8ea2ef">spiCHANNEL_0</a>, <a class="el" href="spi_8h.html#a65e3a5b1534a51c33ece3ddbb94210a0">spiCHANNEL_1</a> oder <a class="el" href="spi_8h.html#abf0eb1ca592948a774deb1ccd444b08e">spiCHANNEL_2</a>. </td></tr>
+    <tr><td class="paramname">processID</td><td>ID des aufrufenden Prozesses/ der aufrufenden Task.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Rückgabe</dt><dd>Wenn die Funktion den Kanal erfolgreich sperren konnte, gibt sie <a class="el" href="spi_8h.html#adfbed5f2510d188c3b757370a4ffb263">spiERROR_NONE</a> zurück. Tritt beim Sperren ein Fehler auf, wird eine negative Zahl zurückgegeben (siehe <a class="el" href="spi_8h.html#a35304da895593c8f3d88d2781d191fb9">spiERROR_UNSUPPORTED_OPERATION</a>, <a class="el" href="spi_8h.html#a7c947c9ec6e6652dc50c12a663f05a6f">spiERROR_INVALID_ARGUMENT</a>, <a class="el" href="spi_8h.html#ae463a15be1ec42deec472596d9ee0478">spiERROR_CHANNEL_FINALIZED</a>, <a class="el" href="spi_8h.html#a9388bfad2981d664dcb3bace3dc858dd">spiERROR_SEMAPHORE_TAKEN</a> oder <a class="el" href="spi_8h.html#a72c0bb520f35aede0b905e7baa7e1c30">spiERROR_CHANNEL_LOCKED</a>). </dd></dl>
+
+<p>Definiert in Zeile <a class="el" href="spi_8c_source.html#l00508">508</a> der Datei <a class="el" href="spi_8c_source.html">spi.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0afb6c925027dc3d4014bced8bb15031"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int spiSelectSlave </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>slave</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long&#160;</td>
+          <td class="paramname"><em>processID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Anwahl eines Slaves. </p>
+<p>Wählt einen der 4 möglichen Slaves LCD, WiFi, Flash oder MicroSD an indem der entsprechende Chip-Select auf 0 gesetzt wird.</p>
+<dl class="section note"><dt>Zu beachten</dt><dd>Aktuell ist nur die Anwahl des LCD implementiert!</dd></dl>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>SPI-Kanal </td></tr>
+    <tr><td class="paramname">slave</td><td>Hiermit geben Sie an welcher Slave angewählt werden soll. Nutzen Sie <a class="el" href="spi_8h.html#ab3722c4236d46602caf9f58d3f79b132">spiSELECT_LCD</a>, <a class="el" href="spi_8h.html#a511b27a057bc8041ff38c25b2c9885c1">spiSELECT_FLASH</a>, <a class="el" href="spi_8h.html#a3f94f354bd3d994ab8185e786281ee7b">spiSELECT_MICROSD</a> oder <a class="el" href="spi_8h.html#a38b03c3dba17b3453a4b0008f361c5b9">spiSELECT_WIFI</a>.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Rückgabe</dt><dd>Bei erfolgreicher Anwahl des vorgegebenen Slaves wird <a class="el" href="spi_8h.html#adfbed5f2510d188c3b757370a4ffb263">spiERROR_NONE</a> zurückgegeben. Beim Auftreten eines Fehlers wird eine negative Zahl, die den Fehler beschreibt, zurückgegeben (siehe <a class="el" href="spi_8h.html#a35304da895593c8f3d88d2781d191fb9">spiERROR_UNSUPPORTED_OPERATION</a>, <a class="el" href="spi_8h.html#a7c947c9ec6e6652dc50c12a663f05a6f">spiERROR_INVALID_ARGUMENT</a>, <a class="el" href="spi_8h.html#a9388bfad2981d664dcb3bace3dc858dd">spiERROR_SEMAPHORE_TAKEN</a>, <a class="el" href="spi_8h.html#a72c0bb520f35aede0b905e7baa7e1c30">spiERROR_CHANNEL_LOCKED</a> oder <a class="el" href="spi_8h.html#ae463a15be1ec42deec472596d9ee0478">spiERROR_CHANNEL_FINALIZED</a>). </dd></dl>
+
+<p>Definiert in Zeile <a class="el" href="spi_8c_source.html#l00855">855</a> der Datei <a class="el" href="spi_8c_source.html">spi.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a20ca0b80a7370f78dfc1c8372e8e771a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int spiTransmitByte </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned char&#160;</td>
+          <td class="paramname"><em>byte</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long&#160;</td>
+          <td class="paramname"><em>processID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Senden eines Zeichens auf einem SPI-Kanal. </p>
+<p>Diese Funktion sendet das Zeichen <code>byte</code> auf dem SPI-Kanal <code>channel</code>, wenn der aufrufende Prozess/ die aufrufende Task den Kanal für sich gesperrt hat oder der Kanal nicht gesperrt ist.</p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>Kanal, auf dem gesendet werden soll </td></tr>
+    <tr><td class="paramname">byte</td><td>Zeichen, das gesendet werden soll </td></tr>
+    <tr><td class="paramname">processID</td><td>ID des aufrufenden Prozesses/ der aufrufenden Task</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Rückgabe</dt><dd>Wenn das Senden erfolgreich verlaufen ist, wird <a class="el" href="spi_8h.html#adfbed5f2510d188c3b757370a4ffb263">spiERROR_NONE</a> zurückgegeben. Tritt beim Senden ein Fehler auf, wird eine negative Zahl, die den Fehler beschreibt, zurückgegeben (siehe <a class="el" href="spi_8h.html#a35304da895593c8f3d88d2781d191fb9">spiERROR_UNSUPPORTED_OPERATION</a>, <a class="el" href="spi_8h.html#a7c947c9ec6e6652dc50c12a663f05a6f">spiERROR_INVALID_ARGUMENT</a>, <a class="el" href="spi_8h.html#ae463a15be1ec42deec472596d9ee0478">spiERROR_CHANNEL_FINALIZED</a>, <a class="el" href="spi_8h.html#a9388bfad2981d664dcb3bace3dc858dd">spiERROR_SEMAPHORE_TAKEN</a> oder <a class="el" href="spi_8h.html#a72c0bb520f35aede0b905e7baa7e1c30">spiERROR_CHANNEL_LOCKED</a>). </dd></dl>
+
+<p>Definiert in Zeile <a class="el" href="spi_8c_source.html#l01115">1115</a> der Datei <a class="el" href="spi_8c_source.html">spi.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa532cbafe5ddc7e66b3a37c1e0439121"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int spiUnlockChannel </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>channel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long&#160;</td>
+          <td class="paramname"><em>processID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Entsperren eines SPI-Kanals. </p>
+<p>Diese Funktion entsperrt den SPI-Kanal mit dem Index <code>channel</code>, wenn der aufrufende Prozess der Prozess ist, der die Sperre hält.</p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">channel</td><td>Index des zu entsperrenden Kanals. </td></tr>
+    <tr><td class="paramname">processID</td><td>ID des aufrufenden Prozesses/ der aufrufenden Task.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Rückgabe</dt><dd>Wenn die Funktion den Kanal erfolgreich entsperren konnte, gibt sie <a class="el" href="spi_8h.html#adfbed5f2510d188c3b757370a4ffb263">spiERROR_NONE</a> zurück. Tritt beim Sperren ein Fehler auf, wird eine negative Zahl zurückgegeben (siehe <a class="el" href="spi_8h.html#a35304da895593c8f3d88d2781d191fb9">spiERROR_UNSUPPORTED_OPERATION</a>, <a class="el" href="spi_8h.html#a7c947c9ec6e6652dc50c12a663f05a6f">spiERROR_INVALID_ARGUMENT</a>, <a class="el" href="spi_8h.html#ae463a15be1ec42deec472596d9ee0478">spiERROR_CHANNEL_FINALIZED</a>, <a class="el" href="spi_8h.html#a9388bfad2981d664dcb3bace3dc858dd">spiERROR_SEMAPHORE_TAKEN</a> oder <a class="el" href="spi_8h.html#a72c0bb520f35aede0b905e7baa7e1c30">spiERROR_CHANNEL_LOCKED</a>). </dd></dl>
+
+<p>Definiert in Zeile <a class="el" href="spi_8c_source.html#l00635">635</a> der Datei <a class="el" href="spi_8c_source.html">spi.c</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variablen-Dokumentation</h2>
+<a class="anchor" id="ac46160e336684748a602d8f891f8c5a9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int isInitialized[ 3 ] = { 0, 0, 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>In diesem Array wird vermerkt, an welchen Kanälen <a class="el" href="spi_8c.html#aebc03d119a48ae58f3e60cce9ea760d2" title="Initialisierung eines SPI-Kanals. ">spiInitializeChannel( )</a> aufgerufen wurde.</p>
+<ul>
+<li><code>isInitialized[ i ] == 0</code>: Der Kanal <code>i</code> ist nicht initialisiert</li>
+<li><code>isInitialized[ j ] != 0</code>: Der Kanal <code>j</code> ist initialisiert</li>
+</ul>
+
+<p>Definiert in Zeile <a class="el" href="spi_8c_source.html#l00065">65</a> der Datei <a class="el" href="spi_8c_source.html">spi.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab86a4107bd2e86d802dcc3a5def75eaf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int isLocked[ 3 ] = { 0, 0, 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>In diesem Array wird vermerkt, welche der SPI-Kanäle (von einem Prozess) gesperrt sind.</p>
+<ul>
+<li><code>isLocked[ i ] == 0</code>: Der Kanal <code>i</code> ist nicht gesperrt</li>
+<li><code>isLocked[ j ] != 0</code>: Der Kanal <code>j</code> ist gesperrt</li>
+</ul>
+
+<p>Definiert in Zeile <a class="el" href="spi_8c_source.html#l00077">77</a> der Datei <a class="el" href="spi_8c_source.html">spi.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa46e3a11af29e4e1412d35e2ef269fe0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long processIDs[ 3 ] = { 0, 0, 0 }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>In diesem Array wird die Prozess-ID des sperrenden Prozesses hinterlegt. </p>
+
+<p>Definiert in Zeile <a class="el" href="spi_8c_source.html#l00083">83</a> der Datei <a class="el" href="spi_8c_source.html">spi.c</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a06c73cc944e8a1abb92eb67435c28c6d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int semaphore = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Diese Variable stellt ein Semaphore dar, dass <code>isLocked[]</code> und <code>processIDs[]</code> schützt.</p>
+<ul>
+<li><code>semaphore == 0</code>: Semaphore nicht vergeben</li>
+<li><code>semaphore == 1</code>: Semaphore vergeben</li>
+</ul>
+
+<p>Definiert in Zeile <a class="el" href="spi_8c_source.html#l00094">94</a> der Datei <a class="el" href="spi_8c_source.html">spi.c</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Erzeugt am Fre Okt 21 2016 11:14:27 für YRDKRX63N Board-Support-Package von &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.10
+</small></address>
+</body>
+</html>

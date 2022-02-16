@@ -1,0 +1,10 @@
+<map id="bsp.h" name="bsp.h">
+<area shape="rect" id="node2" href="$assert_8c.html" title="Implementierung der Funktion &#160;void __assert( const char * file , int line , const char * expr ) ..." alt="" coords="5,80,72,107"/>
+<area shape="rect" id="node3" href="$exit_8c.html" title="Implementierung der Funktion void _exit( int err ). " alt="" coords="97,80,149,107"/>
+<area shape="rect" id="node4" href="$hwsetup_8c.html" title="Initialisierung der Hardware. " alt="" coords="173,80,253,107"/>
+<area shape="rect" id="node5" href="$isr_8c.html" title="Implementierung der Interruptserviceroutinen. " alt="" coords="278,155,325,181"/>
+<area shape="rect" id="node6" href="$isr_8h.html" title="Prototypen der Interruptserviceroutinen. " alt="" coords="329,80,375,107"/>
+<area shape="rect" id="node7" href="$vctbl_8c.html" title="Instanziierung der Interruptvektortabelle. " alt="" coords="372,155,431,181"/>
+<area shape="rect" id="node8" href="$read_8c.html" title="Implementierung der Funktion int _read( int fd, char * buf, int cnt ). " alt="" coords="451,80,509,107"/>
+<area shape="rect" id="node9" href="$write_8c.html" title="Implementierung der Funktion int _write( int fd, const char * buf, int cnt ). " alt="" coords="533,80,595,107"/>
+</map>

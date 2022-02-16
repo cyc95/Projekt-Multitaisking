@@ -1,0 +1,5 @@
+<map id="cos_semaphore.h" name="cos_semaphore.h">
+<area shape="rect" id="node2" href="$cos__data__fifo_8h.html" title="Daten&#45;FIFO fuer COS auf Atmel. Der FIFO benutzt dynamische Speicherverwaltung (malloc()). Es kann nur ein Sorte Daten gespeichert werden. Die maximale Anzahl von Speicherplaetzen (Slots) ist 255 wegen der Verwendung von 1 Byte Indexvariablen. Ein Slot kann maximal 256 Byte Speichern. " alt="" coords="5,80,115,107"/>
+<area shape="rect" id="node4" href="$cos__semaphore_8c.html" title="Dies ist die Atmel Version der COS&#45;Semaphoren. " alt="" coords="139,80,264,107"/>
+<area shape="rect" id="node3" href="$cos__data__fifo_8c.html" title="Daten&#45;FIFO fuer COS auf renesas RX63N. " alt="" coords="5,155,115,181"/>
+</map>

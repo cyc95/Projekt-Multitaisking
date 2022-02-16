@@ -1,0 +1,5 @@
+<map id="isr.h" name="isr.h">
+<area shape="rect" id="node2" href="$cos__systime_8c.html" title="Dieses Modul benutzt CMT0 als Systemuhr. Es wird in COS gebraucht. " alt="" coords="5,80,112,107"/>
+<area shape="rect" id="node3" href="$isr_8c.html" title="Implementierung der Interruptserviceroutinen. " alt="" coords="137,80,183,107"/>
+<area shape="rect" id="node4" href="$vctbl_8c.html" title="Instanziierung der Interruptvektortabelle. " alt="" coords="208,80,267,107"/>
+</map>

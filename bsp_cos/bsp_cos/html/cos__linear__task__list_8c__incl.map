@@ -1,0 +1,7 @@
+<map id="cos_linear_task_list.c" name="cos_linear_task_list.c">
+<area shape="rect" id="node3" href="$cos__ser_8h.html" title="Routinen fuer die serielle Kommunikation auf renesas Controller. " alt="" coords="81,80,160,107"/>
+<area shape="rect" id="node7" href="$cos__linear__task__list_8h.html" title="Dies ist die renesas Version des &#39;co&#45;operative&#39; Schedulers. " alt="" coords="312,80,460,107"/>
+<area shape="rect" id="node4" href="$cos__types_8h.html" title="Typdefinitionen fuer COS auf renesas RX63N. " alt="" coords="49,229,142,256"/>
+<area shape="rect" id="node5" href="$poll__serial__interface_8h.html" title="Routinen fuer die serielle Kommunikation auf renesas Controller. " alt="" coords="22,155,169,181"/>
+<area shape="rect" id="node8" href="$cos__systime_8h.html" title="Dieses Modul benutzt CMT0 als Systemuhr auf renesas contoller. " alt="" coords="366,155,473,181"/>
+</map>

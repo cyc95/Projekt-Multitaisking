@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>LED: Dokumentation der Headerdatei led.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">LED
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Erzeugt von Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li class="current"><a href="index.html"><span>Hauptseite</span></a></li>
+      <li><a href="files.html"><span>Dateien</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Suchen" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Alle</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Dateien</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Makrodefinitionen</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Seiten</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Dokumentation der Headerdatei <a class="el" href="led_8h.html" title="Makros für die Kontrolle der zwölf LEDs LED4 bis LED15. ">led.h</a> </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><dl class="section user"><dt>Installation</dt><dd>Um die in der Headerdatei <a class="el" href="led_8h.html" title="Makros für die Kontrolle der zwölf LEDs LED4 bis LED15. ">led.h</a> definierten Makros zu Kontrolle der zwölf LEDs LED4 bis LED15 des YRDKRX63N nutzen zu können, müssen Sie die Headerdatei <a class="el" href="led_8h.html" title="Makros für die Kontrolle der zwölf LEDs LED4 bis LED15. ">led.h</a> in ihr Projektverzeichnis kopieren und inkludieren.</dd></dl>
+<dl class="section user"><dt>Verbindungen</dt><dd><pre class="fragment">  Name auf dem Board |   Argument an Makros  |     Port      |     Bit
+---------------------+-----------------------+---------------+--------------
+        LED1         |     nicht nutzbar     |       -       |      -
+        LED2         |     nicht nutzbar     |       -       |      -
+        LED3         |     nicht nutzbar     |       -       |      -
+        LED4         |         LED4          |       D       |      5
+        LED5         |         LED5          |       E       |      3
+        LED6         |         LED6          |       D       |      2
+        LED7         |         LED7          |       E       |      0
+        LED8         |         LED8          |       D       |      4
+        LED9         |         LED9          |       E       |      2
+        LED10        |         LED10         |       D       |      1
+        LED11        |         LED11         |       D       |      7
+        LED12        |         LED12         |       D       |      3
+        LED13        |         LED13         |       E       |      1
+        LED14        |         LED14         |       D       |      0
+        LED15        |         LED15         |       D       |      6
+        LED16        |     nicht nutzbar     |       -       |      -
+        D5           |     nicht nutzbar     |       -       |      -
+</pre></dd></dl>
+<dl class="section user"><dt>Beispielprogramm</dt><dd><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;limits.h&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &quot;<a class="code" href="led_8h.html">led.h</a>&quot;</span></div>
+<div class="line"></div>
+<div class="line"><span class="keyword">static</span> <span class="keywordtype">void</span> delay(<span class="keywordtype">void</span>);</div>
+<div class="line"></div>
+<div class="line"><span class="keywordtype">void</span> main(<span class="keywordtype">void</span>) {</div>
+<div class="line"></div>
+<div class="line">    <span class="keywordtype">int</span> step;</div>
+<div class="line"></div>
+<div class="line">    <a class="code" href="led_8h.html#a42241ac03ea227e801f3858ef14a2fd9">ledInitialize</a>();</div>
+<div class="line"></div>
+<div class="line">    <span class="keywordflow">for</span> ( step = 0; ; step = (++step) % 12 ) {</div>
+<div class="line">        <span class="keywordflow">switch</span> ( step ) {</div>
+<div class="line">            <span class="keywordflow">case</span> 0 :</div>
+<div class="line">                <a class="code" href="led_8h.html#affbc7671ed573ef477e69d0c7089709a">ledTurnOn</a>(<a class="code" href="led_8h.html#ae048837f20072bed467332b1bd1da9fa">LED4</a>);</div>
+<div class="line">                <a class="code" href="led_8h.html#a6e92bf6e9b1f3ece70c5b5cb0cb3a16c">ledTurnOff</a>(<a class="code" href="led_8h.html#a806afd0f8b813a329dd60e0b28683737">LED15</a>);</div>
+<div class="line">                delay();</div>
+<div class="line">                <span class="keywordflow">break</span>;</div>
+<div class="line">            <span class="keywordflow">case</span> 1 :</div>
+<div class="line">                <a class="code" href="led_8h.html#affbc7671ed573ef477e69d0c7089709a">ledTurnOn</a>(<a class="code" href="led_8h.html#aefae505e2588183f1921a9e840b16044">LED5</a>);</div>
+<div class="line">                <a class="code" href="led_8h.html#a6e92bf6e9b1f3ece70c5b5cb0cb3a16c">ledTurnOff</a>(<a class="code" href="led_8h.html#ae048837f20072bed467332b1bd1da9fa">LED4</a>);</div>
+<div class="line">                delay();</div>
+<div class="line">                <span class="keywordflow">break</span>;</div>
+<div class="line">            <span class="keywordflow">case</span> 2 :</div>
+<div class="line">                <a class="code" href="led_8h.html#affbc7671ed573ef477e69d0c7089709a">ledTurnOn</a>(<a class="code" href="led_8h.html#ab922b15d42b90025c9e13c087d86ce81">LED6</a>);</div>
+<div class="line">                <a class="code" href="led_8h.html#a6e92bf6e9b1f3ece70c5b5cb0cb3a16c">ledTurnOff</a>(<a class="code" href="led_8h.html#aefae505e2588183f1921a9e840b16044">LED5</a>);</div>
+<div class="line">                delay();</div>
+<div class="line">                <span class="keywordflow">break</span>;</div>
+<div class="line">            <span class="keywordflow">case</span> 3 :</div>
+<div class="line">                <a class="code" href="led_8h.html#affbc7671ed573ef477e69d0c7089709a">ledTurnOn</a>(<a class="code" href="led_8h.html#a35bf8e7b8f9e9257ca184bbe0c95e929">LED7</a>);</div>
+<div class="line">                <a class="code" href="led_8h.html#a6e92bf6e9b1f3ece70c5b5cb0cb3a16c">ledTurnOff</a>(<a class="code" href="led_8h.html#ab922b15d42b90025c9e13c087d86ce81">LED6</a>);</div>
+<div class="line">                delay();</div>
+<div class="line">                <span class="keywordflow">break</span>;</div>
+<div class="line">            <span class="keywordflow">case</span> 4 :</div>
+<div class="line">                <a class="code" href="led_8h.html#affbc7671ed573ef477e69d0c7089709a">ledTurnOn</a>(<a class="code" href="led_8h.html#a828bed975a6f3a24231309200b24cf23">LED8</a>);</div>
+<div class="line">                <a class="code" href="led_8h.html#a6e92bf6e9b1f3ece70c5b5cb0cb3a16c">ledTurnOff</a>(<a class="code" href="led_8h.html#a35bf8e7b8f9e9257ca184bbe0c95e929">LED7</a>);</div>
+<div class="line">                delay();</div>
+<div class="line">                <span class="keywordflow">break</span>;</div>
+<div class="line">            <span class="keywordflow">case</span> 5 :</div>
+<div class="line">                <a class="code" href="led_8h.html#affbc7671ed573ef477e69d0c7089709a">ledTurnOn</a>(<a class="code" href="led_8h.html#a30235e67cb99c928b3ed9655ad10b6ea">LED9</a>);</div>
+<div class="line">                <a class="code" href="led_8h.html#a6e92bf6e9b1f3ece70c5b5cb0cb3a16c">ledTurnOff</a>(<a class="code" href="led_8h.html#a828bed975a6f3a24231309200b24cf23">LED8</a>);</div>
+<div class="line">                delay();</div>
+<div class="line">                <span class="keywordflow">break</span>;</div>
+<div class="line">            <span class="keywordflow">case</span> 6 :</div>
+<div class="line">                <a class="code" href="led_8h.html#affbc7671ed573ef477e69d0c7089709a">ledTurnOn</a>(<a class="code" href="led_8h.html#acc4c4ffc0794b7815762995c12bd30a8">LED10</a>);</div>
+<div class="line">                <a class="code" href="led_8h.html#a6e92bf6e9b1f3ece70c5b5cb0cb3a16c">ledTurnOff</a>(<a class="code" href="led_8h.html#a30235e67cb99c928b3ed9655ad10b6ea">LED9</a>);</div>
+<div class="line">                delay();</div>
+<div class="line">                <span class="keywordflow">break</span>;</div>
+<div class="line">            <span class="keywordflow">case</span> 7 :</div>
+<div class="line">                <a class="code" href="led_8h.html#affbc7671ed573ef477e69d0c7089709a">ledTurnOn</a>(<a class="code" href="led_8h.html#a7f664bc509089a02b374b1e2d9350b41">LED11</a>);</div>
+<div class="line">                <a class="code" href="led_8h.html#a6e92bf6e9b1f3ece70c5b5cb0cb3a16c">ledTurnOff</a>(<a class="code" href="led_8h.html#acc4c4ffc0794b7815762995c12bd30a8">LED10</a>);</div>
+<div class="line">                delay();</div>
+<div class="line">                <span class="keywordflow">break</span>;</div>
+<div class="line">            <span class="keywordflow">case</span> 8 :</div>
+<div class="line">                <a class="code" href="led_8h.html#affbc7671ed573ef477e69d0c7089709a">ledTurnOn</a>(<a class="code" href="led_8h.html#a397a740b0ec3079d4927436312427478">LED12</a>);</div>
+<div class="line">                <a class="code" href="led_8h.html#a6e92bf6e9b1f3ece70c5b5cb0cb3a16c">ledTurnOff</a>(<a class="code" href="led_8h.html#a7f664bc509089a02b374b1e2d9350b41">LED11</a>);</div>
+<div class="line">                delay();</div>
+<div class="line">                <span class="keywordflow">break</span>;</div>
+<div class="line">            <span class="keywordflow">case</span> 9 :</div>
+<div class="line">                <a class="code" href="led_8h.html#affbc7671ed573ef477e69d0c7089709a">ledTurnOn</a>(<a class="code" href="led_8h.html#a8987cb5985e67e8adaefa967135074be">LED13</a>);</div>
+<div class="line">                <a class="code" href="led_8h.html#a6e92bf6e9b1f3ece70c5b5cb0cb3a16c">ledTurnOff</a>(<a class="code" href="led_8h.html#a397a740b0ec3079d4927436312427478">LED12</a>);</div>
+<div class="line">                delay();</div>
+<div class="line">                <span class="keywordflow">break</span>;</div>
+<div class="line">            <span class="keywordflow">case</span> 10:</div>
+<div class="line">                <a class="code" href="led_8h.html#affbc7671ed573ef477e69d0c7089709a">ledTurnOn</a>(<a class="code" href="led_8h.html#ad0f887834022e50fb3a2d96db8e64066">LED14</a>);</div>
+<div class="line">                <a class="code" href="led_8h.html#a6e92bf6e9b1f3ece70c5b5cb0cb3a16c">ledTurnOff</a>(<a class="code" href="led_8h.html#a8987cb5985e67e8adaefa967135074be">LED13</a>);</div>
+<div class="line">                delay();</div>
+<div class="line">                <span class="keywordflow">break</span>;</div>
+<div class="line">            <span class="keywordflow">case</span> 11:</div>
+<div class="line">                <a class="code" href="led_8h.html#affbc7671ed573ef477e69d0c7089709a">ledTurnOn</a>(<a class="code" href="led_8h.html#a806afd0f8b813a329dd60e0b28683737">LED15</a>);</div>
+<div class="line">                <a class="code" href="led_8h.html#a6e92bf6e9b1f3ece70c5b5cb0cb3a16c">ledTurnOff</a>(<a class="code" href="led_8h.html#ad0f887834022e50fb3a2d96db8e64066">LED14</a>);</div>
+<div class="line">                delay();</div>
+<div class="line">                <span class="keywordflow">break</span>;</div>
+<div class="line">        }</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">}</div>
+<div class="line"></div>
+<div class="line"><span class="keyword">static</span> <span class="keywordtype">void</span> delay(<span class="keywordtype">void</span>) {</div>
+<div class="line"></div>
+<div class="line">    <span class="keywordtype">int</span> i;</div>
+<div class="line"></div>
+<div class="line">    <span class="keywordflow">for</span> ( i = 0; i &lt; INT_MAX / 10000000; i++ ) {</div>
+<div class="line">        <span class="keyword">asm</span>(<span class="stringliteral">&quot;nop&quot;</span>);</div>
+<div class="line">    }</div>
+<div class="line"></div>
+<div class="line">}</div>
+</div><!-- fragment --> </dd></dl>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Erzeugt am Sam Mai 16 2015 14:25:51 für LED von &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>

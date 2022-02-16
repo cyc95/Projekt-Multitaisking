@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.10"/>
+<title>YRDKRX63N Board-Support-Package: Dokumentation des Board-Support-Package (BSP)</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">YRDKRX63N Board-Support-Package
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Erzeugt von Doxygen 1.8.10 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Suchen');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li class="current"><a href="index.html"><span>Hauptseite</span></a></li>
+      <li><a href="annotated.html"><span>Datenstrukturen</span></a></li>
+      <li><a href="files.html"><span>Dateien</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Suchen" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Dokumentation des Board-Support-Package (BSP) </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><dl class="section user"><dt>Installationsanleitung</dt><dd><ul>
+<li>
+Legen Sie zunächst unter e² Studio ein neues Projekt an. Gehen Sie hierfür wie im Folgenden beschrieben vor. <ol>
+<li>
+Navigieren Sie mit der Maus zu File -&gt; New -&gt; C Projekt (siehe Abbildung 1). <div class="image">
+<img src="new_project.jpg" alt="new_project.jpg"/>
+<div class="caption">
+Abbildung 1: Anlegen eines neuen Projektes</div></div>
+ </li>
+<li>
+Geben Sie im Feld <em>Project name</em> den Namen des Projektes ein. Wählen Sie unter <em>Project type</em> den Eintrag <em>Executable (Renesas) Sample Project</em> und unter <em>Toolchains</em> den Eintrag <em>KPIT GNURX-ELF Toolchain</em> aus (siehe Abbildung 2). Betätigen Sie im Anschluss die Schaltfläche <em>Next</em>. <div class="image">
+<img src="c_project.jpg" alt="c_project.jpg"/>
+<div class="caption">
+Abbildung 2: Projekteinstellungen</div></div>
+ </li>
+<li>
+Wählen Sie nun unter <em>Toolchain Version</em> die auf ihrem Rechner installierte Version der KPIT GNURX Toolchain aus. Wählen Sie unter <em>Debug Hardware</em> den Eintrag <em>Segger JLink</em> und unter <em>Data endian</em> den Eintrag <em>Little-endian data</em> aus. Wählen Sie unter <em>Select Traget</em> den Eintrag <em>R5F563NBDxFP</em> (siehe Abbildung 3). Betätigen Sie abschließend die Schaltfläche <em>Next</em>. <div class="image">
+<img src="target_specifics.jpg" alt="target_specifics.jpg"/>
+<div class="caption">
+Abbildung 3: Auswahl der Hardware</div></div>
+ </li>
+<li>
+Im folgenden Fenster (siehe Abbildung 4) betätigen Sie einfach die Schaltfläche <em>Next</em>, da für den RX63NB kein Code-Generator verfügbar ist. <div class="image">
+<img src="code_generator.jpg" alt="code_generator.jpg"/>
+<div class="caption">
+Abbildung 4: Code-Generator</div></div>
+ </li>
+<li>
+Lassen Sie im Fenster <em>Select Additional CPU Options</em> alle Kontrollfelder abgewählt und betätigen Sie dann die Schaltfläche <em>Next</em> (siehe Abbildung 5). <div class="image">
+<img src="cpu_options.jpg" alt="cpu_options.jpg"/>
+<div class="caption">
+Abbildung 5: Zusätzliche CPU-Optionen</div></div>
+ </li>
+<li>
+Wählen Sie im Fenster <em>Select Library Generator Settings</em> (siehe Abbildung 6) unter <em>Select Library Source</em> die Einstellung <em>Optimized</em>. Unter <em>Select Header Files</em> können Sie die in ihrem Projekt benötigten Header-Dateien angeben (wählen Sie alle an). Wählen Sie als <em>Select Library Type</em> die Einstellung <em>Pre-Built</em>. Betätigen Sie zum Schluss die Schaltfläche <em>Finish</em>. <div class="image">
+<img src="library_settings.jpg" alt="library_settings.jpg"/>
+<div class="caption">
+Abbildung 6: Bibliothekseinstellungen</div></div>
+ </li>
+<li>
+Abschließend wird Ihnen eine Übersicht der gewählten Einstellungen angezeigt. Betätigen Sie in diesem Fenster die Schaltfläche <em>OK</em> (siehe Abbildung 7). <div class="image">
+<img src="summary.jpg" alt="summary.jpg"/>
+<div class="caption">
+Abbildung 7: Zusammenfassung der Einstellungen</div></div>
+ </li>
+<li>
+Sämtliche Einstellungen (und vieles mehr) können in den Projekteigenschaften nachträglich geändert werden. Zu den Projekteigenschaften gelangen Sie durch einen Rechtsklick auf den Projektordner im Projektexplorer (siehe Abbildung 8) und die Auswahl des Eintrages <em>Projectproperties</em> am Ende der Liste. <div class="image">
+<img src="project_properties.jpg" alt="project_properties.jpg"/>
+<div class="caption">
+Abbildung 8: Die Projekteigenschaften</div></div>
+ </li>
+</ol>
+</li>
+<li>
+Kopieren Sie nun das Verzeichnis <em>bsp</em> in das Verzeichnis <em>src</em> in ihrem Projektverzeichnis. Sie haben die Möglichkeit durch Änderung der Konstanten in der Datei <a class="el" href="bsp_8h.html" title="Steuerung des Board-Support-Package (BSP). ">bsp.h</a> das BSP ihren Anforderungen anzupassen. </li>
+<li>
+Löschen Sie nun alle c- und h-Dateien im Verzeichnis <em>src</em> ihres Projektverzeichnisses mit Ausnahme der Datei Projektname.c. Nennen Sie die Datei Projektname.c gegebenenfalls in main.c um. </li>
+<li>
+Öffnen Sie die Datei Projektname.c (oder main.c), löschen Sie deren Inhalt und kopieren Sie dann den folgenden Quelltext in die Datei. <div class="fragment"><div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"></div>
+<div class="line"><span class="keywordtype">int</span> main( <span class="keywordtype">void</span> )</div>
+<div class="line">{</div>
+<div class="line"></div>
+<div class="line">    puts( <span class="stringliteral">&quot;Hello World!\r&quot;</span> );</div>
+<div class="line"></div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
+<div class="line"></div>
+<div class="line">}</div>
+</div><!-- fragment --> </li>
+<li>
+Kompilieren und Linken Sie das Projekt (Rechtsklick auf den Projektordner im Projektexplorer -&gt; Build Project). </li>
+<li>
+Navigieren Sie durch einen Rechtsklick auf den Projektordner im Projektexplorer und der Auswahl des Eintrags <em>Debug As</em> -&gt; <em>Debug Configurations</em> zu den Einstellungen des Debuggers. Stellen Sie sicher, dass links im Fenster ihr Projekt angewählt ist. Wählen Sie rechts im Fenster, im Reiter <em>Startup</em> unter <em>Runtime Options</em>, die Einstellung <em>set Breakpoint at main</em> ab. </li>
+<li>
+Stellen Sie die Verbindung zwischen Board und Rechner via USB her und übertragen Sie das kompilierte und gelinkte Projekt durch Betätigen der Schaltfläche <em>Debug</em> (der grüne Käfer) auf das Board. Sollten Sie das Projekt erstmalig übertragen, wählen Sie im Fenster <em>Select Configuration</em> den Eintrag <em>Projektname HardwareDebug</em>. </li>
+<li>
+Stellen Sie erst jetzt die Verbindung zwischen dem Board und einem Terminalprogramm via RS232 her. </li>
+<li>
+Betätigen Sie die Schaltfläche <em>Resume</em> (die Schaltfläche mit dem Startzeichen). </li>
+</ul>
+</dd></dl>
+<dl class="section user"><dt>Wo liegt dieser Kommentar</dt><dd>Dieser Kommentar liegt am Beginn der Datei <a class="el" href="bsp_8h.html" title="Steuerung des Board-Support-Package (BSP). ">bsp.h</a>. </dd></dl>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Erzeugt am Fre Okt 21 2016 11:14:28 für YRDKRX63N Board-Support-Package von &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.10
+</small></address>
+</body>
+</html>
